@@ -1,0 +1,41 @@
+{
+	"name" : "Tegel",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 150,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 800,
+		"inclination" : 20,
+		"primaryBody" : "Zeu",
+		"isMoon" : true,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : -6,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" :
+	{
+		"size" : 190,
+		"fogTint" : 
+		{
+			"r" : 194,
+			"g" : 141,
+			"b" : 217,
+			"a" : 30
+		},
+		"fogDensity": 4,
+		"fogSize": 200,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/tegel_heightmap.png",	
+		"textureMap" : "planets/assets/tegel_texturemap.png",	
+		"minHeight" : 150,
+		"maxHeight" : 165,
+	}
+}

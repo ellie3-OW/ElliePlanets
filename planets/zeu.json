@@ -1,0 +1,27 @@
+{
+	"name" : "Zeu",
+	"Base" :
+	{
+		"surfaceGravity" : 9,
+		"surfaceSize" : 500,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 7000,
+		"inclination" : 70,
+		"primaryBody" : "SUN",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 23,
+		"eccentricity" : 0,
+		"axialTilt" : 6,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/zeu_heightmap.png",	
+		"textureMap" : "planets/assets/zeu_texturemap.png",	
+		"minHeight" : 500,
+		"maxHeight" : 508,
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"name" : "Icarus",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 90,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 1500,
+		"inclination" : 24,
+		"primaryBody" : "DARK_BRAMBLE",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 5,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" :
+	{
+		"size" : 130,
+		"fogTint" : 
+		{
+			"r" : 96,
+			"g" : 132,
+			"b" : 148,
+			"a" : 200
+		},
+		"fogDensity": 0.8,
+		"fogSize": 160,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/icarus_heightmap.png",	
+		"textureMap" : "planets/assets/icarus_texturemap.png",	
+		"minHeight" : 90,
+		"maxHeight" : 110,
+	}
+}
