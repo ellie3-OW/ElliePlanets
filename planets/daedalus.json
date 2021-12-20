@@ -1,0 +1,36 @@
+{
+	"name": "Daedalus",
+	"Base": {
+		"surfaceGravity": 8,
+		"surfaceSize": 60,
+		"hasMapMarker": true,
+		"hasAmbientLight": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 1750,
+		"inclination": 70,
+		"primaryBody": "DARK_BRAMBLE",
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"longitudeOfAscendingNode": 24,
+		"eccentricity": 0,
+		"argumentOfPeriapsis": 0
+	},
+	"Atmosphere": {
+		"size": 130,
+		"fogTint": {
+			"r": 30,
+			"g": 192,
+			"b": 100,
+			"a": 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 160
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/daedalus_heightmap.png",
+		"textureMap": "planets/assets/daedalus_texturemap.png",
+		"minHeight": 90,
+		"maxHeight": 110
+	}
+}
